@@ -14,11 +14,11 @@ exports.config = {
       platformName: "Android",
       deviceName: "Galaxy S9",
       platformVersion: "10",
-      app: "YOUR_APP_URL", //Set your APP URL
+      app: "lt://", //Set your APP URL
 
-      //ADD GEOLOCATION BASED ON COUNTRY CODE
-      geoLocation: "fr"  
-
+      //GRANT PERMISSIONS FOR ANDROID
+      autoGrantPermissions: true,
+    
     },
   ],
 

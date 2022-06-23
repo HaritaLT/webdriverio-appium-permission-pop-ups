@@ -16,8 +16,11 @@ exports.config = {
       platformName: "iOS",
       app: "YOUR_APP_URL", //Set your APP URL
 
-      //ADD GEOLOCATION BASED ON COUNTRY CODE
-      geoLocation: "fr"  
+      //ACCEPT ALERTS FOR IOS
+      autoAcceptAlerts: true,
+
+      //DISMISS ALERTS FOR IOS
+      autoDismissAlerts : false,  
 
     },
   ],
